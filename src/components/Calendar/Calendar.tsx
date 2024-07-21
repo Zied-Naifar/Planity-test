@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Event } from "../../types/Calendar";
-import { groupOverlappingEvents } from "../../utils/Calendar";
+import { Event } from "../../types";
+import { groupOverlappingEvents } from "../../utils";
 import CalendarEvent from "./CalendarEvent";
+import "./style.css";
 
 export interface CalendarProps {
   events: Event[];

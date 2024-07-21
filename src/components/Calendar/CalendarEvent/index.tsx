@@ -1,5 +1,5 @@
 import React from "react";
-import { RenderedEvent } from "../../../types/Calendar";
+import { RenderedEvent } from "../../../types";
 
 export interface CalendarEventProps {
   event: RenderedEvent;
